@@ -1,0 +1,193 @@
+:root {
+  /* Colors from design system */
+  --color-f8f9fc: #f8f9fc;
+  --color-ffffff: #ffffff;
+  --color-ececee: #ececee;
+  --color-fff2e9: #fff2e9;
+  --color-92959e: #92959e;
+  --color-15192c: #15192c;
+  --color-ff6a00: #ff6a00;
+  --color-130f26: #130f26;
+  --color-ede8ff: #ede8ff;
+  --color-551fff: #551fff;
+  --color-eaf9ff: #eaf9ff;
+  --color-00b7fe: #00b7fe;
+  --color-ffebef: #ffebef;
+  --color-fd2254: #fd2254;
+  --color-f9f9fa: #f9f9fa;
+  --color-f4f5f7: #f4f5f7;
+  --color-7549ff: #7549ff;
+  --color-d0d2da: #d0d2da;
+  --color-f3f0ff: #f3f0ff;
+  --color-dadada: #dadada;
+  --color-000000: #000000;
+  --color-c4c4c4: #c4c4c4;
+  --color-fff7f0: #fff7f0;
+  --color-fff2f5: #fff2f5;
+  --color-f1fbff: #f1fbff;
+  --color-ff43b4: #ff43b4;
+  --color-eaeaea: #eaeaea;
+  --color-f5f5f7: #f5f5f7;
+  --color-2f2b54: #2f2b54;
+  --color-009fff: #009fff;
+  --color-837fa3: #837fa3;
+  --color-545fff: #545fff;
+  --color-a7a4c5: #a7a4c5;
+  --color-f5315d: #f5315d;
+  --color-3e3a66: #3e3a66;
+  --color-828282: #828282;
+  --color-e0e0e0: #e0e0e0;
+  --color-bdbdbd: #bdbdbd;
+  --color-092c4c: #092c4c;
+  --color-e8e0ff: #e8e0ff;
+  --color-120047: #120047;
+
+  /* Shadows */
+  --shadow-0: 0px 12.67px 22.52px 0px rgba(208,210,218,1);
+  --shadow-1: 0px 12.67px 22.52px -2.82px rgba(208,210,218,1);
+  --shadow-2: 0px 8.38px 6.70px 0px rgba(0,0,0,1);
+  --shadow-3: 0px 23.16px 18.53px 0px rgba(0,0,0,1);
+  --shadow-4: 0px 55.77px 44.62px 0px rgba(0,0,0,1);
+  --shadow-5: 0px 184.99px 147.99px 0px rgba(0,0,0,1);
+  --shadow-6: 0px 18px 32px 0px rgba(208,210,218,1);
+  --shadow-7: 0px 18px 32px -4px rgba(208,210,218,1);
+  --shadow-8: 0px 6.85px 12.18px 0px rgba(208,210,218,1);
+  --shadow-9: 0px 6.85px 12.18px -1.52px rgba(208,210,218,1);
+  --shadow-10: 0px 4.53px 3.62px 0px rgba(0,0,0,1);
+  --shadow-11: 0px 12.52px 10.02px 0px rgba(0,0,0,1);
+  --shadow-12: 0px 30.15px 24.12px 0px rgba(0,0,0,1);
+  --shadow-13: 0px 100px 80px 0px rgba(0,0,0,1);
+
+  /* Border radii (key values from design system) */
+  --radius-4-566: 4.565959px;
+  --radius-6-088: 6.087946px;
+  --radius-7-61: 7.609931px;
+  --radius-8-447: 8.44654px;
+  --radius-9-132: 9.131918px;
+  --radius-11-262: 11.262055px;
+  --radius-12: 12px;
+  --radius-12-468: 12.468359px;
+  --radius-14-078: 14.077566px;
+  --radius-16: 16px;
+  --radius-16-893: 16.89308px;
+  --radius-20: 20px;
+  --radius-23-065: 23.065144px;
+  --radius-24: 24px;
+  --radius-38-05: 38.04966px;
+  --radius-70-388: 70.38784px;
+  --radius-100: 100px;
+  --radius-101-097: 101.09655px;
+
+  /* Typography helpers */
+  --typo70-size: 11.262055px; --typo70-line: 13.197721px; --typo70-letter: 0px; --typo70-color: var(--color-92959e); --typo70-weight: 700; --typo70-family: "AvertaStd-Bold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo71-size: 14.077566px; --typo71-line: 16.497149px; --typo71-letter: 0px; --typo71-color: var(--color-15192c); --typo71-weight: 400; --typo71-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo72-size: 28.155132px; --typo72-line: 32.994297px; --typo72-letter: -0.563103px; --typo72-color: var(--color-15192c); --typo72-weight: 600; --typo72-family: "Averta-Semibold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo73-size: 12.669810px; --typo73-line: 14.847434px; --typo73-letter: 0px; --typo73-color: var(--color-92959e); --typo73-weight: 400; --typo73-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo74-size: 12.669810px; --typo74-line: 14.847434px; --typo74-letter: 0px; --typo74-color: var(--color-15192c); --typo74-weight: 600; --typo74-family: "Averta-Semibold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo75-size: 8.446540px; --typo75-line: 9.898289px; --typo75-letter: 0px; --typo75-color: var(--color-92959e); --typo75-weight: 400; --typo75-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo76-size: 8.446540px; --typo76-line: 9.898289px; --typo76-letter: 0px; --typo76-color: var(--color-92959e); --typo76-weight: 400; --typo76-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo77-size: 11.262055px; --typo77-line: 13.197721px; --typo77-letter: 0px; --typo77-color: var(--color-92959e); --typo77-weight: 700; --typo77-family: "AvertaStd-Bold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo78-size: 14.077566px; --typo78-line: 16.497149px; --typo78-letter: 0px; --typo78-color: var(--color-15192c); --typo78-weight: 400; --typo78-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo79-size: 16.893080px; --typo79-line: 19.796577px; --typo79-letter: -0.337862px; --typo79-color: var(--color-15192c); --typo79-weight: 600; --typo79-family: "Averta-Semibold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo80-size: 9.854297px; --typo80-line: 11.548004px; --typo80-letter: 0px; --typo80-color: var(--color-d0d2da); --typo80-weight: 400; --typo80-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo81-size: 12.669810px; --typo81-line: 14.847434px; --typo81-letter: 0px; --typo81-color: var(--color-15192c); --typo81-weight: 400; --typo81-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo82-size: 9.854297px; --typo82-line: 11.548004px; --typo82-letter: 0px; --typo82-color: var(--color-15192c); --typo82-weight: 400; --typo82-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo83-size: 14.077566px; --typo83-line: 16.497149px; --typo83-letter: -0.281551px; --typo83-color: var(--color-551fff); --typo83-weight: 400; --typo83-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo84-size: 14.077566px; --typo84-line: 16.497149px; --typo84-letter: -0.281551px; --typo84-color: var(--color-d0d2da); --typo84-weight: 400; --typo84-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo85-size: 16.893080px; --typo85-line: 19.796577px; --typo85-letter: -0.337862px; --typo85-color: var(--color-551fff); --typo85-weight: 600; --typo85-family: "Averta-Semibold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo87-size: 9.854297px; --typo87-line: 11.548004px; --typo87-letter: -0.197086px; --typo87-color: var(--color-15192c); --typo87-weight: 400; --typo87-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo88-size: 9.854297px; --typo88-line: 11.548004px; --typo88-letter: -0.197086px; --typo88-color: var(--color-15192c); --typo88-weight: 400; --typo88-family: "Averta-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo89-size: 12.669810px; --typo89-line: 14.847434px; --typo89-letter: -0.253396px; --typo89-color: var(--color-15192c); --typo89-weight: 600; --typo89-family: "Averta-Semibold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  --typo90-size: 18px; --typo90-line: 21.09375px; --typo90-letter: -0.36px; --typo90-color: var(--color-000000); --typo90-weight: 400; --typo90-family: "AvertaStd-Regular", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Reset and base */
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color-f8f9fc);
+}
+img { display: block; }
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+/* Utility for absolute positioned Figma layers */
+.abs { position: absolute; }
+
+/* Generic tokens to styles mapping used on this screen (subset) */
+.style-0 { background: var(--color-f8f9fc); }
+.style-1 { background: var(--color-f8f9fc); border-radius: var(--radius-23-065); }
+.style-2 { background: var(--color-ffffff); border-radius: var(--radius-16-893); }
+.style-3 { background: var(--color-ffffff); }
+.style-4 { background: var(--color-ffffff); border: 0.563103px solid var(--color-ececee); border-radius: var(--radius-14-078); }
+.style-5 { background: var(--color-fff2e9); border-radius: var(--radius-11-262); opacity: 0.65; }
+.style-6 { background: var(--color-92959e); }
+.style-7 { background: var(--color-15192c); }
+.style-8 { background: var(--color-ff6a00); }
+.style-9 { background: var(--color-130f26); }
+.style-10 { border: 0.703878px solid var(--color-ececee); }
+.style-11 { background: var(--color-ede8ff); border-radius: var(--radius-11-262); opacity: 0.65; }
+.style-12 { background: var(--color-551fff); }
+.style-13 { background: var(--color-eaf9ff); border-radius: var(--radius-11-262); opacity: 0.65; }
+.style-14 { background: var(--color-00b7fe); }
+.style-15 { background: var(--color-ffebef); border-radius: var(--radius-11-262); opacity: 0.65; }
+.style-16 { background: var(--color-fd2254); }
+.style-17 { background: var(--color-f9f9fa); }
+.style-18 { background: var(--color-f4f5f7); border: 0.563103px solid var(--color-ececee); border-radius: var(--radius-8-447); opacity: 0.85; }
+.style-19 { border: 1.055818px solid var(--color-15192c); }
+.style-20 { border: 2.111635px solid var(--color-551fff); }
+.style-21 { border: 1.759696px solid var(--color-7549ff); }
+.style-22 { border: 1.407757px solid var(--color-ececee); }
+.style-23 { background: var(--color-ffffff); border: 2.111635px solid var(--color-7549ff); }
+.style-24 { background: var(--color-ffffff); border-radius: var(--radius-8-447); }
+.style-25 { border: 1.055818px solid var(--color-92959e); }
+.style-26 { opacity: 0.5; }
+.style-27 { background: var(--color-d0d2da); }
+.style-28 { opacity: 0.95; }
+.style-29 { background: var(--color-ffffff); border-radius: var(--radius-70-388); }
+.style-30 { background: var(--color-f3f0ff); border-radius: var(--radius-70-388); }
+.style-31 { background: var(--color-dadada); }
+.style-32 { background: var(--color-d0d2da); border: 0 solid var(--color-000000); }
+.style-33 { background: var(--color-c4c4c4); border: 2.111635px solid var(--color-551fff); }
+.style-34 { border-radius: var(--radius-11-262); }
+.style-35 { background: var(--color-fff7f0); border-radius: var(--radius-11-262); }
+.style-36 { background: var(--color-ff6a00); border-radius: var(--radius-11-262); }
+.style-37 { background: var(--color-f3f0ff); border-radius: var(--radius-11-262); }
+.style-38 { background: var(--color-551fff); border-radius: var(--radius-11-262); }
+.style-39 { background: var(--color-fff2f5); border-radius: var(--radius-11-262); }
+.style-40 { background: var(--color-fd2254); border-radius: var(--radius-11-262); }
+.style-41 { background: var(--color-f1fbff); border-radius: var(--radius-11-262); }
+.style-42 { background: var(--color-ff43b4); }
+.style-43 { background: var(--color-000000); }
+.style-44 { background: var(--color-eaeaea); }
+.style-45 { background: var(--color-f5f5f7); }
+.style-113 { background: var(--color-ffffff); border: 0.563103px solid var(--color-ececee); border-radius: var(--radius-14-078); box-shadow: var(--shadow-0); }
+.style-114 { background: var(--color-ffffff); border-radius: var(--radius-8-447); box-shadow: var(--shadow-1); }
+.style-115 { background: var(--color-ffffff); box-shadow: var(--shadow-2), var(--shadow-3), var(--shadow-4), var(--shadow-5); }
+
+/* Typography helpers */
+.typo-70 { font: var(--typo70-weight) var(--typo70-size)/var(--typo70-line) var(--typo70-family); letter-spacing: var(--typo70-letter); color: var(--typo70-color); }
+.typo-71 { font: var(--typo71-weight) var(--typo71-size)/var(--typo71-line) var(--typo71-family); letter-spacing: var(--typo71-letter); color: var(--typo71-color); }
+.typo-72 { font: var(--typo72-weight) var(--typo72-size)/var(--typo72-line) var(--typo72-family); letter-spacing: var(--typo72-letter); color: var(--typo72-color); }
+.typo-73 { font: var(--typo73-weight) var(--typo73-size)/var(--typo73-line) var(--typo73-family); letter-spacing: var(--typo73-letter); color: var(--typo73-color); }
+.typo-74 { font: var(--typo74-weight) var(--typo74-size)/var(--typo74-line) var(--typo74-family); letter-spacing: var(--typo74-letter); color: var(--typo74-color); }
+.typo-75 { font: var(--typo75-weight) var(--typo75-size)/var(--typo75-line) var(--typo75-family); letter-spacing: var(--typo75-letter); color: var(--typo75-color); text-align: center; }
+.typo-76 { font: var(--typo76-weight) var(--typo76-size)/var(--typo76-line) var(--typo76-family); letter-spacing: var(--typo76-letter); color: var(--typo76-color); }
+.typo-77 { font: var(--typo77-weight) var(--typo77-size)/var(--typo77-line) var(--typo77-family); letter-spacing: var(--typo77-letter); color: var(--typo77-color); text-align: center; }
+.typo-78 { font: var(--typo78-weight) var(--typo78-size)/var(--typo78-line) var(--typo78-family); letter-spacing: var(--typo78-letter); color: var(--typo78-color); text-align: center; }
+.typo-79 { font: var(--typo79-weight) var(--typo79-size)/var(--typo79-line) var(--typo79-family); letter-spacing: var(--typo79-letter); color: var(--typo79-color); }
+.typo-80 { font: var(--typo80-weight) var(--typo80-size)/var(--typo80-line) var(--typo80-family); letter-spacing: var(--typo80-letter); color: var(--typo80-color); }
+.typo-81 { font: var(--typo81-weight) var(--typo81-size)/var(--typo81-line) var(--typo81-family); letter-spacing: var(--typo81-letter); color: var(--typo81-color); }
+.typo-82 { font: var(--typo82-weight) var(--typo82-size)/var(--typo82-line) var(--typo82-family); letter-spacing: var(--typo82-letter); color: var(--typo82-color); }
+.typo-83 { font: var(--typo83-weight) var(--typo83-size)/var(--typo83-line) var(--typo83-family); letter-spacing: var(--typo83-letter); color: var(--typo83-color); }
+.typo-84 { font: var(--typo84-weight) var(--typo84-size)/var(--typo84-line) var(--typo84-family); letter-spacing: var(--typo84-letter); color: var(--typo84-color); }
+.typo-85 { font: var(--typo85-weight) var(--typo85-size)/var(--typo85-line) var(--typo85-family); letter-spacing: var(--typo85-letter); color: var(--typo85-color); text-align: center; }
+.typo-87 { font: var(--typo87-weight) var(--typo87-size)/var(--typo87-line) var(--typo87-family); letter-spacing: var(--typo87-letter); color: var(--typo87-color); text-align: right; }
+.typo-88 { font: var(--typo88-weight) var(--typo88-size)/var(--typo88-line) var(--typo88-family); letter-spacing: var(--typo88-letter); color: var(--typo88-color); }
+.typo-89 { font: var(--typo89-weight) var(--typo89-size)/var(--typo89-line) var(--typo89-family); letter-spacing: var(--typo89-letter); color: var(--typo89-color); }
+.typo-90 { font: var(--typo90-weight) var(--typo90-size)/var(--typo90-line) var(--typo90-family); letter-spacing: var(--typo90-letter); color: var(--typo90-color); }
+.typo-16 { font: 700 64px/75px "AvertaStd-Bold", system-ui, -apple-system, Segoe UI, Roboto, sans-serif; letter-spacing: -1.28px; color: var(--color-15192c); }

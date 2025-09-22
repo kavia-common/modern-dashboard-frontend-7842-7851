@@ -1,0 +1,6 @@
+/* Scoped Banner specific helpers (keeps the absolute layout as designed) */
+#screen { position: relative; }
+#screen .abs { position: absolute; }
+
+/* The original file noted that most properties are inline to preserve exact Figma coordinates.
+   Keep this file for any Banner-specific hover/focus/responsive adjustments if needed. */
